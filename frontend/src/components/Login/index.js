@@ -25,6 +25,7 @@ const Login = () => {
 
     const handleLogin =(googleDate)=>{
         setEmail(googleDate.profileObj.email)
+        console.log(googleDate.profileObj.email);
         setPassword('1234')
         
         console.log(googleDate.tokenId);
