@@ -233,8 +233,8 @@ const Products = () => {
           breakLabel="..."
           nextLabel="next >"
           onPageChange={handlePageClick}
-          marginPagesDisplayed={4}
-          pageRangeDisplayed={4}
+          marginPagesDisplayed={3}
+          pageRangeDisplayed={3}
           pageCount={pageCount}
           previousLabel="< back"
           containerClassName={"pagination justify-content-center p-3"}
