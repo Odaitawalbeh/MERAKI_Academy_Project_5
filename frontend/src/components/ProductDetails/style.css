@@ -3,6 +3,7 @@
     grid-template-columns: repeat(5,auto);
     background-color: white;
     margin-left: 15px;
+    margin-bottom: 30px;
 }
 
 .image-product-detailess {

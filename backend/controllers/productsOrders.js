@@ -50,7 +50,7 @@ const deleteProductOrder = (req, res) => {
 const deleteAllUserProductOrders = (req, res) => {
     const id = req.token.userId;
   const data = [id];
-    const query = `UPDATE product_orders SET is_deleted = 1 WHERE userId = $1 RETURNING *;`
+    const query = `UPDATE product_orders SET is_deleted = 1 WHERE user_id = $1 RETURNING *;`
 
     pool.query(query, data)
     .then((result) => {
